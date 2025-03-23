@@ -2,7 +2,7 @@
 const firebaseConfig = {
     // Add your Firebase configuration here
     // You can get this from Firebase Console
-    apiKey: ${{ secrets.secrets.FIREBASE_API_KEY }},
+    apiKey: ${{ secrets.FIREBASE_API_KEY }},
   authDomain: "textler-6e019.firebaseapp.com",
   projectId: "textler-6e019",
   storageBucket: "textler-6e019.firebasestorage.app",

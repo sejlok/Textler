@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Reels</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="post-form">
+            <textarea id="postContent" placeholder="What's on your mind?"></textarea>
+            <select id="privacy">
+                <option value="public">Public</option>
+                <option value="followers">Followers Only</option>
+                <option value="anonymous">Anonymous</option>
+            </select>
+            <button onclick="createPost()">Post</button>
+        </div>
+        
+        <div id="usernameDisplay"></div>
+        <input type="text" id="usernameInput" placeholder="Edit your username">
+        <button onclick="updateUsername()">Update Name</button>
+        
+        <div id="postsContainer" class="posts-container"></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

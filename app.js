@@ -2,12 +2,12 @@
 const firebaseConfig = {
     // Add your Firebase configuration here
     // You can get this from Firebase Console
-    apiKey: "your-api-key",
-    authDomain: "your-auth-domain",
-    projectId: "your-project-id",
-    storageBucket: "your-storage-bucket",
-    messagingSenderId: "your-messaging-sender-id",
-    appId: "your-app-id"
+    apiKey: "AIzaSyC0MabCO1iGPCNz_MyQ9OZeQMsmC7gO1Jw",
+  authDomain: "textler-6e019.firebaseapp.com",
+  projectId: "textler-6e019",
+  storageBucket: "textler-6e019.firebasestorage.app",
+  messagingSenderId: "739872379154",
+  appId: "1:739872379154:web:80419748f0f85c78a963cb"
 };
 
 // Initialize Firebase
